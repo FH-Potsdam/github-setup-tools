@@ -10,6 +10,16 @@ Some shellscripts for setting up github repositories for teams.
     brew install ghi
 
 
+##Misc Infos  
+
+If you want to create a repository without assigning all admins of the organization to it do it like this.  
+
+- Create the repo in your own account  
+- go to settings > Danger Zone™ > Transfer
+- Transfer the ownership to the organization
+
+
+
 ##License  
 
 Copyright (c)  2013 Fabian "fabiantheblind" Morón Zirfas  
