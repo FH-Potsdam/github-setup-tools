@@ -1,6 +1,14 @@
 #github setup tools
 
-Some tools for setting up github repositories for teams.
+Some tools for setting up github for organizations, managing teams, getting infos and so on.
+
+##Content  
+
+####deprecated (nothing to see here move along)
+####init (bash - creates a set of folders from a list and adds README.md and a image)
+####issues (bash - create issues from a list needs "ghi" works in a repo)
+####organization (nodejs - orga reading)
+####team (bash - add users to a team)
 
 ##prerequisites Mac OSX  
 
@@ -8,6 +16,11 @@ Some tools for setting up github repositories for teams.
 
     brew install imagemagick
     brew install ghi
+
+##Authentification  
+get an auth token like in [this guide](https://help.github.com/articles/creating-an-access-token-for-command-line-use)
+__Warning!__ this should stay a secret. It has read write acces to all your repos.
+
 
 ##Environment Variables  
 For easy auth code storage you can use [EnvPane](https://github.com/hschmidt/EnvPane). These variables can then be accessed in scripts and applications. 
