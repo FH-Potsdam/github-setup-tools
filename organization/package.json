@@ -1,0 +1,14 @@
+{
+    "name": "organization fiddle",
+    "version": "0.0.1",
+    "description": "getting orga infos with nodejs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "fabiantheblind",
+    "license": "MIT",
+    "dependencies": {
+        "octonode": "~0.4.2"
+    }
+}

@@ -1,6 +1,6 @@
 #github setup tools
 
-Some shellscripts for setting up github repositories for teams.
+Some tools for setting up github repositories for teams.
 
 ##prerequisites Mac OSX  
 
@@ -8,6 +8,17 @@ Some shellscripts for setting up github repositories for teams.
 
     brew install imagemagick
     brew install ghi
+
+##Environment Variables  
+For easy auth code storage you can use [EnvPane](https://github.com/hschmidt/EnvPane). These variables can then be accessed in scripts and applications. 
+
+__In NodeJs:__  
+
+    console.log(process.env.ENV_VARIABLE) // ENV_VARIABLE is the name of the variable 
+
+__In Shell Scripts:__  
+
+    echo $ENV_VARIABLE  
 
 
 ##Misc Infos  
