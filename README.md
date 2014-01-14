@@ -2,6 +2,14 @@
 
 Some tools for setting up github for organizations, managing teams, getting infos and so on.
 
+##prerequisites Mac OSX  
+
+install tools via [homebrew](http://brew.sh)  
+
+    brew install imagemagick
+    brew install ghi
+    brew install node
+
 ##Content  
 
 ####deprecated (nothing to see here move along)
@@ -18,13 +26,6 @@ needs nodejs. Install dependencies using npm (node package manager) by running
 
 ####team (bash - add users to a team)
 
-##prerequisites Mac OSX  
-
-[homebrew](http://brew.sh)  
-
-    brew install imagemagick
-    brew install ghi
-    brew install node
 
 ##Authentification  
 get an auth token like in [this guide](https://help.github.com/articles/creating-an-access-token-for-command-line-use)
