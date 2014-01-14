@@ -7,7 +7,15 @@ Some tools for setting up github for organizations, managing teams, getting info
 ####deprecated (nothing to see here move along)
 ####init (bash - creates a set of folders from a list and adds README.md and a image)
 ####issues (bash - create issues from a list needs "ghi" works in a repo)
-####organization (nodejs - orga reading)
+####organization (nodejs - orga reading)  
+needs nodejs. Install dependencies using npm (node package manager) by running
+
+    # install dependencies
+    npm install
+    # now run via
+    node index.js
+    # watch the console output
+
 ####team (bash - add users to a team)
 
 ##prerequisites Mac OSX  
@@ -16,6 +24,7 @@ Some tools for setting up github for organizations, managing teams, getting info
 
     brew install imagemagick
     brew install ghi
+    brew install node
 
 ##Authentification  
 get an auth token like in [this guide](https://help.github.com/articles/creating-an-access-token-for-command-line-use)
