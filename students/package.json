@@ -2,7 +2,7 @@
   "name": "students-list",
   "version": "0.0.1",
   "description": "make a file and a folder for each student",
-  "main": "index.js",
+  "main": "single-txt-files-from-list.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +10,8 @@
     "FHP"
   ],
   "author": "fabiantheblind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "~0.3.5"
+  }
 }

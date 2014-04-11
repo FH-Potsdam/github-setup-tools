@@ -1,0 +1,2 @@
+Name, Studiengang, Semster, Github Name
+Mickey Mouse, Interfacedesign,2,mm
