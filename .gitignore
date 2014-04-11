@@ -3,3 +3,4 @@ build-tmp/
 *.sublime-workspace
 *.sublime-project
 node_modules/
+students/_private/

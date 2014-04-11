@@ -38,9 +38,9 @@ ghorg.teams(function(err, data, headers) {
 
 // get the names of all members of a team
 // get the team id from the process before
-var ghteam = client.team(558455);
+var ghteam = client.team(766370);
 
-ghteam.members(function(err, teamdata, headers) {
+ghteam.members(function (err, teamdata, headers) {
     console.log("-------------- members of team --------------");
     for (var j = 0; j < teamdata.length; j++) {
         console.log(teamdata[j].login);
