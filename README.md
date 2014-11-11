@@ -9,6 +9,7 @@ install tools via [homebrew](http://brew.sh)
     brew install imagemagick
     brew install ghi
     brew install node
+    brew install jq
 
 ##Content  
 
